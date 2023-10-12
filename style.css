@@ -1,0 +1,129 @@
+body{
+    background-image: url(images/v37-wit-42e-job129.jpg);
+    background-size: cover;
+}
+.signup{
+    text-align: center;
+    margin-top: 10em;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 10em;
+    padding-top: 5em;
+    padding-bottom: 10em;
+    background-color: rgba(177, 139, 93, 0.493);
+    height: 250px;
+    width: 600px;
+    border-radius: 10px;
+    border: 3px solid black;
+    box-shadow: 4px 4px 4px black;
+}
+h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 2px white;
+}
+.inp{
+    background-color: rgba(0, 0, 0, 0.288);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+}
+.inp::placeholder{
+    color: white;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.p1{
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.btn1{
+    margin-top: 2em;
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 220, 0.527);
+    font-size: 15px;
+}
+.btn1:hover{
+    box-shadow: 4px 4px 4px black;
+}
+.div2{
+    float: right;
+}
+.tb1{
+    border: 2px solid black;
+    padding-left: 1em;
+    /* padding-right: 1em; */
+    margin-right: 2em;
+    width: 800px;
+    background-color: rgba(245, 245, 220, 0.582);
+    box-shadow: 4px 4px 4px black;
+}
+.tr1:hover{
+background-color: rgba(97, 97, 96, 0.082);
+}
+.div3{
+     border: 2px solid black;
+     float: left;
+     width: 400px;
+     height: 500px;
+     background-color: rgba(245, 245, 220, 0.726);
+     box-shadow: 4px 4px 4px black;
+     text-align: center;
+}
+.inp2{
+    margin-top: 20px;
+    background-color:rgba(0, 0, 0, 0.384) ;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    width: 250px;
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    padding-left: 1em;
+}
+.inp2::placeholder{
+    color: white;
+    padding: 1em;
+}
+.btn2{
+    margin-top: 2em;
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.384);
+    font-size: 15px;
+    color: white;
+}
+.btn2:hover{
+    box-shadow: 2px 2px 2px black;
+}
+.navbarsearch{
+    width: 90%;
+    height: 30px;
+    background-color: rgba(252, 252, 252, 0.897);
+    border-radius: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: black;
+  }
+  .navbarsearch::placeholder{
+    font-size: 15px;
+    text-align: center;
+  }
+  
+nav{
+height: 60px;
+    margin-bottom: 45px;
+    margin-top: 45px;
+    margin-left: 10%;
+}
+.bttsr{
+    background-color: rgba(240, 255, 255, 0);
+    border: none;
+}
