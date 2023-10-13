@@ -6,10 +6,11 @@
     <title>index</title>
 </head>
 <body>
+    <h1 class="title">Student Grade Management</h1>
     <div class="search">
         <nav>
-            <input type="search" id="search-text" class="navbarsearch" placeholder="search">
-           <button class="bttsr"><img src="images/icons8-search-30.png" class="icse"></button>     
+            <input type="search" id="id3" class="navbarsearch" placeholder="search">
+           <button id="search" class="bttsr"><img src="images/icons8-search-30.png" class="icse"></button>     
       </nav>
     </div>
     <div class="signup" >
@@ -21,33 +22,60 @@
     <div>
         <div class="student">
             <div class="div2">
-                <table class="tb1">
+                <table class="tb1"id="array">
                     <tr class="tr1">
                         <td>N°ID</td>
                         <td>FirstName</td>
                         <td>LastName</td>
-                        <td>Modifaction</td>
-                        <td>deletion</td>
+                        <td>Avrage</td>
+
                     </tr>
                 </table>
             </div>
             <div class="div3">
-                <h2>Add new student</h2>
-                <input type="text" class="inp2" placeholder="FirstName"><br>
-                <input type="text" class="inp2" placeholder="LastName"><br>
-                <input type="text" class="inp2" placeholder="Math"><br>
-                <input type="text" class="inp2" placeholder="Franch"><br>
-                <input type="text" class="inp2" placeholder="English"><br>
-                <input type="text" class="inp2" placeholder="average"><br>
-                <button class="btn2">ADD</button>
+                <div class="adddiv">
+                    <h2>Add new student</h2>
+                    <input type="text" class="inp2" id="fname" placeholder="FirstName"><br>
+                    <input type="text" class="inp2" id="lname" placeholder="LastName"><br>
+                    <input type="text" class="inp2" id="mathNote" placeholder="Math"><br>
+                    <input type="text" class="inp2" id="physicsNotes" placeholder="physics"><br>
+                    <input type="text" class="inp2" id="englishNote" placeholder="english"><br>
+                    <input type="text" class="inp2" id="frenchNote" placeholder="Franch"><br>
+                    <input type="text" class="inp2" id="scienceNote" placeholder="science"><br>
+                    <button class="btn2" id="add">ADD</button>
+                </div>
+                    <div class="modifdiv">
+                        <h2>Update</h2>
+                        <input type="text" class="inp2" id="id2" placeholder="N°ID"><br>
+                        <input type="text" class="inp2" id="mathNote2" placeholder="Math"><br>
+                        <input type="text" class="inp2" id="physicsNotes2" placeholder="physics"><br>
+                        <input type="text" class="inp2" id="englishNote2" placeholder="english"><br>
+                        <input type="text" class="inp2" id="frenchNote2" placeholder="Franch"><br>
+                        <input type="text" class="inp2" id="scienceNote2" placeholder="science"><br>
+                        <button class="btn2" id="up2">Update</button>
+                    </div>
+                    <div class="deldiv" >
+                        <h2>delete</h2>
+                        <p class="sel">Select N°ID</p><br>
+                        <input type="text" class="inp2" id="id1" placeholder="N°ID"><br>
+                        <button class="btn2" id="del2">Delete</button>
+                    </div>
             </div>
         </div>
+    </div>
+    <div class="div4">
+
+                <button class="btn3" id="up">U p d a t e <br> S t u d e n t</button><br>
+                <button class="btn3" id="del">D e l e t e  <br> S t u d e n t</button><br>
+                <button class="btn3" id="sort">S o r t s <br> B y <br> A v r e g e </button><br>
+
+        </table>
     </div>
     <script
     src="https://code.jquery.com/jquery-3.7.1.js"
     integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
     crossorigin="anonymous"
   ></script>
-  <script src="script.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
