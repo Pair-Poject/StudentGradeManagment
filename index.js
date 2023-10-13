@@ -236,19 +236,3 @@ function each(array, func) {
         </tr>
       `)
       }
-function levl(x){
-  var x=""
-  if(x<10){
-    x="Insuffisant"
-  }
-  else if (9<x<13){
-    x="Passable"
-  }
-  else if(13<x<16){
-    x = "Bien"
-  }
-  else{
-    x ="Excellent";
-    }
-    return x
-}
